@@ -1,0 +1,89 @@
+.nav {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.nav a, .nav a:visited {
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 10px;
+  text-decoration: none;
+
+}
+
+.nav a:hover {
+    text-transform: uppercase;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://zuzivian.x10host.com/images/jumbotron6.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.jumbotron a:link, .jumbotron a:visited, .jumbotron a:hover, .jumbotron a:link:active, .jumbotron a:visited:active {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.learn-more h2 {
+	font-family: 'Shift', sans-serif;
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.footer {
+	background-color:fff;
+}
+
+.footer p {
+	font-family: 'Shift', sans-serif;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
