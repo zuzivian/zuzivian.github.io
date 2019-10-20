@@ -19,22 +19,22 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -200px;
-  margin-top: -400px;
-  width: 400px;
-  height: 400px;
+  margin-left: -300px;
+  margin-top: -600px;
+  width: 600px;
+  height: 600px;
 }
 /* ============================================== BASE
 */
 .cake:after {
   background: #ebe3e1;
-  border-radius: 400px;
+  border-radius: 600px;
   content: "";
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 400px;
-  height: 8px;
+  width: 600px;
+  height: 12px;
 }
 /* ============================================== Candle
 */
@@ -44,10 +44,10 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -10px;
-  margin-top: -33.33333333px;
-  width: 20px;
-  height: 66.66666667px;
+  margin-left: -15px;
+  margin-top: -50px;
+  width: 30px;
+  height: 100px;
 }
 .velas:after,
 .velas:before {
@@ -55,7 +55,7 @@ body {
   content: "";
   position: absolute;
   width: 100%;
-  height: 8.88888889px;
+  height: 13.33333333px;
 }
 .velas:after {
   top: 25%;
@@ -73,9 +73,9 @@ body {
   position: absolute;
   top: -12px;
   left: 50%;
-  margin-left: -13.33333333px;
-  width: 26.66666667px;
-  height: 50px;
+  margin-left: -20px;
+  width: 40px;
+  height: 75px;
 }
 .fuego:nth-child(1) {
   -webkit-animation: fuego 2s infinite;
@@ -107,8 +107,8 @@ body {
   }
   50% {
     background: rgba(255, 50, 0, 0.1);
-    -webkit-transform: translateY(-80px) scale(0);
-            transform: translateY(-80px) scale(0);
+    -webkit-transform: translateY(-120px) scale(0);
+            transform: translateY(-120px) scale(0);
   }
   100% {
     background: rgba(254, 248, 97, 0.5);
@@ -124,8 +124,8 @@ body {
   }
   50% {
     background: rgba(255, 50, 0, 0.1);
-    -webkit-transform: translateY(-80px) scale(0);
-            transform: translateY(-80px) scale(0);
+    -webkit-transform: translateY(-120px) scale(0);
+            transform: translateY(-120px) scale(0);
   }
   100% {
     background: rgba(254, 248, 97, 0.5);
@@ -137,32 +137,32 @@ body {
 */
 .cobertura {
   background: #ece7e3;
-  border-radius: 200px;
+  border-radius: 300px;
   position: absolute;
   top: 60%;
   left: 50%;
-  margin-left: -111.11111111px;
-  margin-top: -20px;
-  width: 222.22222222px;
-  height: 50px;
+  margin-left: -166.66666667px;
+  margin-top: -30px;
+  width: 333.33333333px;
+  height: 75px;
   z-index: 10;
 }
 .cobertura:after,
 .cobertura:before {
   background: #ece7e3;
-  border-radius: 400px;
+  border-radius: 600px;
   content: "";
   position: absolute;
-  width: 20px;
-  height: 40px;
+  width: 30px;
+  height: 60px;
 }
 .cobertura:after {
-  top: 26.66666667px;
-  right: 57.14285714px;
+  top: 40px;
+  right: 85.71428571px;
 }
 .cobertura:before {
-  top: 40px;
-  right: 36.36363636px;
+  top: 60px;
+  right: 54.54545455px;
 }
 /* ============================================== BIZCOCHO
 */
@@ -171,9 +171,9 @@ body {
   position: absolute;
   bottom: 0;
   left: 50%;
-  margin-left: -100px;
-  width: 200px;
-  height: 133.33333333px;
+  margin-left: -150px;
+  width: 300px;
+  height: 200px;
 }
 .bizcocho:after,
 .bizcocho:before {
@@ -181,7 +181,7 @@ body {
   content: "";
   position: absolute;
   width: 100%;
-  height: 20px;
+  height: 30px;
 }
 .bizcocho:after {
   top: 30%;
@@ -219,9 +219,9 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 400px;
-  height: 400px;
-  margin-left: -200px;
+  width: 600px;
+  height: 600px;
+  margin-left: -300px;
   margin-top: -100px;
   text-align: center;
 }
@@ -229,5 +229,5 @@ img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 200px;
+  width: 300px;
 }
